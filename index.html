@@ -23,34 +23,29 @@
 			<p>The beginning to a great adventure, the very first paragraph has been written in the lore of Valhalla
 			</p>
 			<!-- CoPilot has been autowriting within the editor and even autowrites comments. Why is that a feature, AI doesn't know what I want to comment on??? -->
-		</div>
-
-	
-	<div class="practicearea">
-		<div class="practice">
-			<h2> August 28 practice</h2>
-			<!-- list practice-->
-			<ul>
-				<li> list 1</li>
-				<li> list 2</li>
-				<li> Sublist
+	</div>
+	<div class="practice">
+		<h2> August 28 practice</h2>
+		<!-- list practice-->
+		<ul>
+			<li> list 1</li>
+			<li> list 2</li>
+			<li> Sublist
+				<ul>
+					<li> Sublist 1</li>
+					<li> Sublist 2</li>
+				</ul>
+			</li>
+		</ul>
+			<!--Required List Practice-->
+			 <ol>
+				<li>inline elements
 					<ul>
-						<li> Sublist 1</li>
-						<li> Sublist 2</li>
+						<li> &lt; img &gt;</li>
+						<li> &lt; br &gt;</li>
+						<li> &lt; strong &gt;</li>
 					</ul>
 				</li>
-
-			</ul>
-
-			<!--Required List Practice-->
-				 <ol>
-					<li>inline elements
-						<ul>
-							<li> &lt; img &gt;</li>
-							<li> &lt; br &gt;</li>
-							<li> &lt; strong &gt;</li>
-						</ul>
-					</li>
 
 				<li>block elements
 					<ul>
@@ -66,14 +61,164 @@
 				<a href="HTMLelements.html">HTML Elements</a>
 				<a href="doc/imageMap.html">Image Map</a>
 				<p>Link to Blackboard
-					<a href="https://blackboard.sc.edu/ultra/institution-page">Blackboard
-						
-					</a>
+					<a href="https://blackboard.sc.edu/ultra/institution-page">Blackboard</a>
 				</p>
-		</div>
-
 	</div>
 
+	<div class = "practice">
+		<h1> Sep. 4th practice</h1>
+		<!--Image practice-->
+		This is an image. <br><img src="img/google.png" alt="google" width="100px">
+		<hr>
+		<div><a href="https.//www.google.com">&copy; Google <img src="img/google.png" alt="google"></a>
+			</div>
+		<div>
+			<table border ="1">
+				<tr>
+					<th> Head 1</th>
+					<th> Head 2</th>
+					<th> Head 3</th>
+				</tr>
+				<tr>
+					<td rowspan="3"> Data 1, 2, 3</td>
+					<td> Data 2</td>
+					<td> Data 3</td>
+				</tr>
+				<tr>
+					<td colspan="2">Data 4, 5, & 6</td>
+
+				</tr>
+				<tr>
+					<td> Data 7</td>
+					<td> Data 8</td>
+				</tr>
+			</table>
+		</div>
+		<div>
+			<table border ="1">
+				<tr>
+					<th colspan ="4"> Header</th>
+				</tr>
+				<tr>
+					<th> Month</th>
+					<th> High</th>
+					<th> Low</th>
+					<th> Avg</th>
+				</tr>
+				<tr>
+					<td> January</td>
+					<td> Data 6</td>
+					<td> Data 7</td>
+					<td> Data 8</td>
+				</tr>
+				<tr>
+					<td> February</td>
+					<td> Data 10</td>
+					<td> Data 11</td>
+					<td rowspan="2"> Data 12</td>
+				</tr>
+				<tr>
+					<td> March</td>
+					<td> Data 14</td>
+					<td> Data 15</td>
+					
+				</tr>
+				<tr>
+					<td> April</td>
+					<td> Data 18</td>
+					<td> Data 19</td>
+					<td> Data 20</td>
+				</tr>
+				
+
+					
+			</table>
+		</div>
+	</div>
+	<div class = "practice">
+		<h1> September 9th practice</h1>
+		<!--Form Practice-->
+		<form action>
+			<p> 
+				First Name: <input type= "text" name="fn">
+			</p>
+			<p> Last Name: <input type="text" name="ln">
+			</p>
+			<p>
+				Password: <input type= "password" name= "pd" size = "15" maxlength="20">
+			</p>
+			<p> What is your favorite color?
+
+				<input type= "checkbox" name="color" value="red"> Red
+				<input type= "checkbox" name="color" value="blue"> Blue
+				<input type= "checkbox" name="color" value="green"> Green
+				<input type="checkbox" name="color" value="yellow"> Yellow
+				<input type="checkbox" name="color" value="purple" checked> Purple
+				<input type="checkbox" name="color" value="orange"> Orange
+				<input type="checkbox" name="color" value="black"> Black
+			</p>
+			<p> What is your major?
+				<input type= "radio" name="major" value="CS"> Computer Science
+				<input type= "radio" name="major" value="BS"> Buisness
+				<input type= "radio" name="major" value="TH" checked> Theatre
+				<input type= "radio" name="major" value="PS"> Political Science
+				<input type= "radio" name="major" value="AE"> Aerospace Engineering
+			</p>
+			<p>	
+				<input type= "submit" value = "Go">
+			</p>
+			<p> 
+			<input type= "reset" value= "reset">
+			</p>
+			<!--File upload-->
+			<input type="file" name="DoNotUseThisFileUpload">
+		</form>
+		
+
+	</div>
+	<div class="practice" id="Sept. 11">
+		<h1>September 11 Practice</h1>
+		<form action="">
+			<p>
+				Textarea Ex:
+				<br><textarea name="comment" rows="7" cols="50"> Text here...</textarea>
+			</p>
+			<p><br><option value="red"> Please select your device.</option>
+			<select name="device">
+				<option value="laptop"> Laptop</option>
+				<option value="desktop"> Desktop</option>
+				<option>Android</option>
+				<option value="iphone"> Pixel</option>
+			</select>
+			</p>
+			<input type="submit" value="Submit"
+		</form>
+		<p>Image Buttons
+			<button><img src="img/minus.png" alt= "Minus"> Go</button>
+			<input type="Image" src="img/plus.png" alt="Plus">
+		</p>
+		<p>
+			Label Practice<br>
+			<label> Age <input type="text" name="age"></label>
+			<input type="text" name="school" id="school">
+			<label for="school">School</label>
+		</p>
+		<p>HTML 5 features:
+			<input type="color" name="fontcolor">
+			<input type="date" name="date">
+			<input type="datetime" name="datetime">
+			<input type="email" name="email"placeholder="JonathanDoey@usca.edu" required>
+		</p>
+
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
 	<script type="text/javascript" src="index.js"></script>
 </body>
 
